@@ -10,7 +10,7 @@ module.exports = (mode, example) => {
     Path.resolve(__dirname, `../../examples/${example}/index.ts`) :
     Path.resolve(__dirname, '../../src/index.ts');
   const output = (isDev || isExample) ? {
-    path: Path.resolve(__dirname, '../../docs/examples'),
+    path: Path.resolve(__dirname, '../../../../docs/examples/boardy'),
     filename: `${example}.min.js`,
   } : {
     path: Path.resolve(__dirname, '../../dist'),

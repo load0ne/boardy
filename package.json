@@ -1,52 +1,22 @@
 {
-  "name": "boardy",
-  "version": "1.0.0",
-  "description": "responsive, persist, reactive drawing tools on web browser",
-  "main": "src/index.ts",
-  "scripts": {
-    "<< COMMENT_1 >>": "example=[example name(dirname)] yarn start",
-    "<< COMMENT_2 >>": "ex) example=simple yarn start",
-    "start": "NODE_ENV=development webpack-dev-server",
-    "<< COMMENT_3 >>": "example=[example name(dirname)] yarn build:example",
-    "<< COMMENT_4 >>": "ex) example=simple yarn build:example",
-    "build:example": "NODE_ENV=example webpack",
-    "build": "NODE_ENV=production webpack"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/load0ne/boardy.git"
-  },
-  "keywords": [
-    "board",
-    "drawing",
-    "drawing tool",
-    "responsive",
-    "vector based",
-    "stateful",
-    "context",
-    "canvas",
-    "persist"
+  "private": true,
+  "workspaces": [
+    "packages/*"
   ],
-  "author": "load0ne",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/load0ne/boardy/issues"
-  },
-  "homepage": "https://github.com/load0ne/boardy#readme",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.11.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
-    "@typescript-eslint/eslint-plugin": "^3.5.0",
-    "@typescript-eslint/parser": "^3.5.0",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
     "babel-loader": "^8.1.0",
-    "eslint": "^7.4.0",
+    "eslint": "^7.7.0",
     "eslint-config-google": "^0.14.0",
     "html-webpack-plugin": "^4.3.0",
-    "typescript": "^3.9.6",
+    "typescript": "^4.0.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }

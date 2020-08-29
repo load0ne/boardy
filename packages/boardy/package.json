@@ -1,0 +1,36 @@
+{
+  "name": "boardy",
+  "version": "1.0.0",
+  "description": "responsive, persist, reactive drawing tools on web browser",
+  "main": "src/index.ts",
+  "scripts": {
+    "<< COMMENT_1 >>": "example=[example name(dirname)] yarn start",
+    "<< COMMENT_2 >>": "ex) example=simple yarn start",
+    "start": "NODE_ENV=development webpack-dev-server",
+    "<< COMMENT_3 >>": "example=[example name(dirname)] yarn build:example",
+    "<< COMMENT_4 >>": "ex) example=simple yarn build:example",
+    "build:example": "NODE_ENV=example webpack",
+    "build": "NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/load0ne/boardy.git"
+  },
+  "keywords": [
+    "board",
+    "drawing",
+    "drawing tool",
+    "responsive",
+    "vector based",
+    "stateful",
+    "context",
+    "canvas",
+    "persist"
+  ],
+  "author": "load0ne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/load0ne/boardy/issues"
+  },
+  "homepage": "https://github.com/load0ne/boardy#readme"
+}

@@ -3,7 +3,7 @@ const Fs = require('fs');
 
 module.exports = () => {
   const browsers = Fs
-    .readFileSync(Path.resolve(__dirname, '../../.browserslistrc'), {
+    .readFileSync(Path.resolve(__dirname, '../../../../.browserslistrc'), {
       encoding: 'utf8',
     })
     .split('\n')

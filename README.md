@@ -11,7 +11,7 @@ it supports following three features, basically.
 
 ## How to work
 
-<img src="./assets/img/how-to-work-v3.png" width="600" alt="how-to-work">
+<img src="./docs/assets/img/how-to-work-v3.png" width="600" alt="how-to-work">
 
 <br/>
 
