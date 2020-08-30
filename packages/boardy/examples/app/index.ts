@@ -1,7 +1,7 @@
 /* eslint-disable spaced-comment */
 import Boardy, {ActionType} from '@/Boardy';
-import blackline from '@/modules/Painter/tools/blackline';
-import {Drawing} from '@/modules/Tool';
+import blackline from '@/cores/Painter/tools/blackline';
+import {Drawing} from '@/cores/Tool';
 
 /////////////////////////////////////
 /////////// Server //////////////////

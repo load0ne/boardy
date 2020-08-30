@@ -1,6 +1,6 @@
 import {Action} from '@/@types/base';
-import Painter from '@/modules/Painter';
-import Rasterizer from '@/modules/Rasterizer';
+import Painter from '@/cores/Painter';
+import Rasterizer from '@/cores/Rasterizer';
 
 /**
  * Render Loop per vsync

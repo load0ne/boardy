@@ -1,4 +1,4 @@
-import Tool, {Drawing} from '@/modules/Tool';
+import Tool, {Drawing} from '@/cores/Tool';
 import {Context, Action} from '@/@types/base';
 import {IdGenerator} from '@/utils';
 import * as tools from './tools';

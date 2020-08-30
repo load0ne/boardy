@@ -1,4 +1,4 @@
-import Tool from '@/modules/Tool';
+import Tool from '@/cores/Tool';
 import {ActionType} from '@/constants';
 
 export default Tool.create({

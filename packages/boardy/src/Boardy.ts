@@ -1,8 +1,8 @@
-import Trigger from '@/modules/Trigger';
-import Renderer from '@/modules/Renderer';
-import Painter from '@/modules/Painter';
-import Rasterizer from '@/modules/Rasterizer';
-import Tool from '@/modules/Tool';
+import Trigger from '@/cores/Trigger';
+import Renderer from '@/cores/Renderer';
+import Painter from '@/cores/Painter';
+import Rasterizer from '@/cores/Rasterizer';
+import Tool from '@/cores/Tool';
 import {Context, Action, ContextSize, ContextResolution, ContextUnit} from '@/@types/base';
 import {ActionType} from '@/constants';
 import {ResizeObserver} from '@/utils';

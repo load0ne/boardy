@@ -1,5 +1,5 @@
 import Boardy, {ActionType} from '@/Boardy';
-import {Drawing} from '@/modules/Tool';
+import {Drawing} from '@/cores/Tool';
 
 const boardy = new Boardy({
   canvas: document.querySelector('canvas'),

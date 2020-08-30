@@ -1,4 +1,4 @@
-import Tool, {Drawing} from '@/modules/Tool';
+import Tool, {Drawing} from '@/cores/Tool';
 import {ActionType} from '@/constants';
 import data from '@/constants/crayonTexture';
 import blackline from './blackline';
